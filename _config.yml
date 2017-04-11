@@ -1,0 +1,10 @@
+highlighter: rouge
+github: [Repository metadata]
+
+baseurl: "https://kristenzirkler.github.io/arizonalive-tv"
+
+# Sass
+sass:
+  sass_dir: scss
+  style: :compressed
+  line_numbers: true
