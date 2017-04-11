@@ -18,10 +18,12 @@ $link: $main-color;
 
 $error: #d92424;
 
-$page-size: 960px;
+$page-size: 1000px;
+$slide-top-padding: 60px;
+$slide-top-padding-mobile: 30px;
 
 $desktop-side-space: 20px;
-$mobile-side-space: 30px;
+$mobile-side-space: 20px;
 
 @mixin transition($transitions) {
     -webkit-transition: $transitions;

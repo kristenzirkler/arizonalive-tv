@@ -1,0 +1,41 @@
+.page-home {
+	// slides
+	text-align: center;
+	.video {
+		background: $gray-lightest;
+	}
+	.intro {
+		.inner {
+			padding-bottom: 10px;
+		}
+	}
+
+	// elements
+	.video-player-ctr {
+		width: 100%;
+		position: relative;
+		img {
+			width: 100%;
+		}
+		.video-player {
+			position: absolute;
+			top: 0; bottom: 0;
+			left: 0; right: 0;
+		}
+	}
+	.logo {
+		font-size: 40px;
+		font-weight: bold;
+		margin-bottom: 10px;
+		strong {
+			color: $main-color;
+		}
+		em {
+			font-size: 18px;
+			color: $gray;
+		}
+	}
+	.tagline {
+
+	}
+}
